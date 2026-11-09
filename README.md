@@ -30,6 +30,28 @@ O acesso ao terminal de comandos permitiu consultar o estado das interfaces e ve
 
 As interfaces combo foram avaliadas exclusivamente pela conexão física RJ45. As interfaces de fibra óptica não fizeram parte dos testes.
 
+## Evidências do procedimento
+
+### 1. Equipamento utilizado
+
+Switch D-Link DGS-3120-24TC utilizado na validação das interfaces Ethernet.
+
+![Vista frontal do equipamento](evidencias/fotos-teste/01-equipamento.jpeg)
+
+### 2. Diagnóstico das interfaces
+
+Consulta do estado das 24 portas por meio do comando `show ports 1-24`.
+
+![Diagnóstico das portas](evidencias/fotos-teste/02-diagnostico-show-ports.jpeg)
+
+### 3. Verificação de conectividade
+
+Registro visual das portas 2 e 3 com indicação de conexão estabelecida (Link Up).
+
+![Portas 2 e 3 com Link Up](evidencias/fotos-teste/03-link-up-portas-2-e-3.jpeg)
+
+---
+
 ## Documentação
 
 - [Metodologia de testes](docs/metodologia.md)
@@ -50,3 +72,4 @@ Informações internas de infraestrutura, como endereços IP, endereços MAC, n�
 ---
 
 *Documentação técnica desenvolvida para registro de atividade prática em diagnóstico de infraestrutura de redes.*
+
